@@ -1,0 +1,68 @@
+body { 
+    h1{
+    height: 500px;
+    background-image: url(mittens.png); 
+    background-repeat: no-repeat; background-position:top;
+    background-color: black;
+    border-color: rgb(231, 75, 179);
+    border-bottom-style: double;
+    border-top-style: double;
+    border-width: 12px;
+    }
+    #nav_menu ul {
+      list-style-type: none;
+      padding: 1em 0; /*padding aabove and below li elements */
+      text-align: center;
+    }
+    #nav_menu ul li {
+      display: inline;
+      padding: 0 1.5em;
+    }
+       /*this was from the book but i'm not using it because i'm using images
+    #nav_menu ul li a {
+      font-weight: bold;
+      color: blue;
+    }     
+    #nav_menu ul li a.current { text-decoration: none;}*/
+
+    /*this lets you know that these images are links that lead to other pages */
+   #nav_menu ul li a:hover {
+      background-color: fuchsia;
+    }
+    h3{font-size: 85px;}
+    h4{font-size: 85px;}
+  }
+.column {
+    background-image: linear-gradient(to bottom right, black, white);
+    float: left;
+    width: 50%;
+  }
+.column1 {
+    background-image: linear-gradient(to bottom, black, white);
+    float: right;
+    width: 50%;
+    font-size: 45px;
+  }
+  /* what floats in water? */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*this creates just enough shadow to allow the white to stand out on the changing background*/
+.AF {
+ text-shadow:yellow 2px 0 11px;
+ Text-align:left;
+ font-weight:bold;
+ font-size:200px;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+footer{
+    float:right;
+    background-color: white; opacity: 0.8;
+    color:black;
+    padding-bottom: 30px;
+}
